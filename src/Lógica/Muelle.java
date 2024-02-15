@@ -138,7 +138,7 @@ public class Muelle {
         if (index < barcos.size()) {
             Barco barco = barcos.get(index);
             if (barco.getFechaCiruculacion().get(Calendar.YEAR) >= year) {
-                pasajerosInfo.append(barco.getNombre() + " - " + formato.format(barco.getFechaCiruculacion().getTime()) + "\n");
+                pasajerosInfo.append(index + 1 + ". " + barco.getNombre() + " - " + formato.format(barco.getFechaCiruculacion().getTime()) + "\n");
             }
             return barcosDesde(pasajerosInfo, year, index + 1);
         }
