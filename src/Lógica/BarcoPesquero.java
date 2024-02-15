@@ -40,6 +40,6 @@ public final class BarcoPesquero extends Barco {
     
     @Override
     public String toString() {
-        return super.toString() + "\nBarco con Carga de: " + tipoBarco + "\nPeces Capturados: " + pecesCapturados;
+        return super.toString() + "\nCarga de: " + tipoBarco + "\nPeces Capturados: " + pecesCapturados;
     }
 }
